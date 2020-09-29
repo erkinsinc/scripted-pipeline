@@ -7,7 +7,7 @@ properties([
 
 node{
     stage("Pull Repo"){
-        git branch: 'solution', url: 'https://github.com/ikambarov/terraform-task.git'
+        git branch: 'solution', url: 'https://github.com/erkinsinc/terraform-vpc.git'
     }
 
     dir('sandbox/') {
